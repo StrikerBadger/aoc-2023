@@ -6,7 +6,7 @@ def task_two(lines):
 
 if __name__ == '__main__':
     # Read input.txt
-    with open('input.txt', 'r') as f:
+    with open('day_%__DAY__%/input.txt', 'r') as f:
         lines = [line.strip() for line in f.readlines()]
     solution_one = task_one(lines)
     solution_two = task_two(lines)
